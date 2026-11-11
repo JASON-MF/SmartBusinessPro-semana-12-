@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SmartBusinessPro</RootNamespace>
+    <AssemblyName>SmartBusinessPro</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Proveedor de SQL Server para Entity Framework Core (incluye UseSqlServer) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <!-- Permite leer App.config en aplicaciones .NET (Windows Forms) -->
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>

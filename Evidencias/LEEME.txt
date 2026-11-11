@@ -1,0 +1,5 @@
+Coloca aquí tus capturas de pantalla (PNG/JPG):
+  01_conexion_exitosa.png
+  02_productos_datagridview.png
+  03_error_servidor_incorrecto.png
+  04_error_base_datos_incorrecta.png
